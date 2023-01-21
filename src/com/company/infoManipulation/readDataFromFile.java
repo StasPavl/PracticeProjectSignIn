@@ -8,7 +8,7 @@ public class readDataFromFile {
 
     public static String returnUserFromDataBase(String username) {
 
-        String fileName = "data.txt";
+        String fileName = "data.csv.csv";
         try {
             FileReader fileReader = new FileReader(fileName);
             BufferedReader bufferedReader = new BufferedReader(fileReader);

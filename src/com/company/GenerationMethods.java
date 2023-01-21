@@ -16,7 +16,7 @@ public class GenerationMethods {
         User user = new User(username,password);
 
 
-        saveToFile(user,"data.txt");
+        saveToFile(user,"data.csv");
 
 
     }
